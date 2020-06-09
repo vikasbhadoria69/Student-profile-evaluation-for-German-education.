@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Germany Admission Predictior for Chemical</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Chemical Engineering Predictions</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="cointainer">
+        <h3 class='text-center mt-3'>Probability detector for Chemical Engineering related fields</h3>
+        <p><strong> Probability of Admission is: {{inf}}%</strong> </p>
+        <a href="univlist_chemical" target="_blank"><button class="btn btn-outline-success my-2 my-sm-0"
+                type="submit">Get the university list</button></a>
+        <a href="/chemical"><button class="btn btn-outline-success my-2 my-sm-0" type="submit">Go Back</button></a>
+        <br><br>
+        {% if inf < 40 %}
+        <div>
+            <p>You have low chances. But do not be upset.</p>
+            <p><em>Here are some tips to improve your chances:</em></p>
+            <ul>
+                <li>Try to give IELTS again if your score is below 7.</li>
+                <li>Do you have a internship? If not then go back and select 'Yes' for intership, you will see your
+                    chances will increase. So be positive and start looking for an internship.</li>
+                <li>Doing GRE or German will build up your profile, go back and try to see how this is going to increase
+                    your chances.</li>
+
+            </ul>
+            <br>
+            <p>Note: You might have less probability because your GPA would be low or maybe you still haven't finished
+                your bachelors. But this should not demotivate you from applying to Germany. <strong>There are a number
+                    of ways your profile can be built stronger.</strong></p>
+            <p><strong>You can get in touch with our German counsellors who can guide you to build your profile that can
+                    increase your chances of getting an admit in Germany.</strong></p>
+            <br>
+            <p>Click below to fill up our contact form, once you fill and submit our counsellor will get in touch with
+                you.</p>
+                
+            <a href="/contact" target="_blank"><button class="btn btn-outline-success my-2 my-sm-0"
+                    type="submit">Contact form</button></a>
+        </div>
+        {% elif 39 < inf < 60 %}
+        <div>
+            <p>You have good chances. But there is still alot of room for improvement.</p>
+            <p><em>Here are some tips to improve your chances:</em></p>
+            <ul>
+                <li>Try to give IELTS again if your score is below 7.</li>
+                <li>Doing GRE or German will build up your profile, go back and try to see how this is going to increase
+                    your chances.</li>
+
+            </ul>
+            <br>
+            <p>Note: Your probability might not be really high because your GPA would be low or maybe you still haven't finished
+                your bachelors. But this should not demotivate you from applying to Germany. <strong>There are a number
+                    of ways your profile can be built more stronger.</strong></p>
+            <p><strong>You can get in touch with our German counsellors who can guide you to build your profile that can
+                    increase your chances of getting an admit in Germany.</strong></p>
+            <br>
+            <p>Click below to fill up our contact form, once you fill and submit our counsellor will get in touch with
+                you.</p>
+                
+            <a href="/contact" target="_blank"><button class="btn btn-outline-success my-2 my-sm-0"
+                    type="submit">Contact form</button></a>
+        </div>
+        {% elif 59 < inf < 79 %}
+        <div>
+            <p>You have pretty good chances as you can see. Do you still want to improve your profile?.</p>
+            <p><em>Here are some tips to improve your chances:</em></p>
+            <ul>
+                <li>Do you have a internship? If not then go back and select 'Yes' for intership, you will see your
+                    chances will increase. So be positive and start looking for an internship.</li>
+                <li>Doing GRE or German will build up your profile, go back and try to see how this is going to increase
+                    your chances.</li>
+
+            </ul>
+            <br>
+            <p>Note: Your probability might be good but there are still a number of factors affecting admissions in Germany.
+                 <strong>Its always good to get your profile evaluated by an expert.</strong></p>
+            <p><strong>You can get in touch with our German counsellors who can guide you in best possible way.</strong></p>
+            <br>
+            <p>Click below to fill up our contact form, once you fill and submit our counsellor will get in touch with
+                you.</p>
+                
+            <a href="/contact" target="_blank"><button class="btn btn-outline-success my-2 my-sm-0"
+                    type="submit">Contact form</button></a>
+        </div>
+        {% elif 78 < inf < 100 %}
+        <div>
+            <p>You have excellent chances as you can see. Germany is the place for you.</p>
+            <p><em>Tips for you:</em></p>
+            <ul>
+                <li>Just stay positive and start applications to German universities.</li>
+                <li>Make sure to present strong SOP & LORs, this will really help you.</li>
+
+            </ul>
+            <br>
+            <p>Note: Your probability might be excellent but there is no harm to get your profile evaluated in detail, correct?
+                 <strong>Its always good to get your profile evaluated by an expert.</strong></p>
+            <p><strong>You can get in touch with our German counsellors who can guide you in best possible way.</strong></p>
+            <br>
+            <p>Click below to fill up our contact form, once you fill and submit our counsellor will get in touch with
+                you.</p>
+                
+						
+            <a href="/contact" target="_blank"><button class="btn btn-outline-success my-2 my-sm-0"
+                    type="submit">Contact form</button></a>
+        </div>
+
+
+        {% endif %}
+        <br>
+        <p><em>Thank you for visiting</em></p>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
